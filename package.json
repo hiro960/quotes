@@ -1,7 +1,7 @@
 {
     "private": true,
     "scripts": {
-        "heroku-postbuild": "cd front && yarn install && yarn run build:production"
+        "heroku-postbuild": "cd front && yarn install && yarn export"
     },
     "devDependencies": {},
     "dependencies": {}
